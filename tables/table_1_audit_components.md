@@ -1,0 +1,11 @@
+**Table 1. Psychological questions addressed by the audit**
+
+| Component | Psychological question | Evidence provided |
+|:--|:--|:--|
+| Empirical estimator audit | Does observed spacing reflect memory or scheduler selection? | Direction and interval stability |
+| Parameter recovery | Can the within-state delay effect be recovered? | Bias, RMSE, 95% coverage, and sign error |
+| Cognitive-model recovery | Which memory-update rule, state, and prediction error are recoverable? | Family, parameter, correlation, and RMSE |
+| Context-sensitivity study | Do attention and availability confound enacted timing and recall? | Bias and coverage across context strength |
+| Micro-randomized study | What is the proximal causal effect of an interval perturbation? | Risk-difference bias, coverage, and power |
+| Computational validation | Are the psychological conclusions computationally reproducible? | Cross-run agreement and structural checks |
+

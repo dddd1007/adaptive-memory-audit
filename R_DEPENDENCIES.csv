@@ -1,0 +1,3 @@
+"component","minimum_version","tested_version","role"
+"R","4.5.0","4.5.3","runtime"
+"lme4","2.0.6","2.0.6","crossed participant/card random-intercept benchmarks"

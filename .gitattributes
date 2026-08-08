@@ -1,0 +1,18 @@
+* text=auto
+
+*.R text eol=lf
+*.jl text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.docx binary
+*.pdf binary
+*.png binary
+*.zip binary

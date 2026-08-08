@@ -1,0 +1,5 @@
+"Generator","Transitions","Family recovery","True par.","Mean par.","Exact recovery"
+"RL",2,".595",".250",".267",".280"
+"RL",8,".925",".250",".251",".930"
+"Bayesian",2,".665",".200",".322",".065"
+"Bayesian",8,".990",".200",".225",".590"

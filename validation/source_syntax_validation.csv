@@ -1,0 +1,16 @@
+"language","file","parser","passed"
+"R","analyse_empirical_case.R","R 4.6.0 parse()",TRUE
+"R","audit_empirical_sensitivity.R","R 4.6.0 parse()",TRUE
+"R","build_figures.R","R 4.6.0 parse()",TRUE
+"R","build_manifests.R","R 4.6.0 parse()",TRUE
+"R","build_tables.R","R 4.6.0 parse()",TRUE
+"R","check_r_sources.R","R 4.6.0 parse()",TRUE
+"R","summarise_simulations.R","R 4.6.0 parse()",TRUE
+"R","theme_brm.R","R 4.6.0 parse()",TRUE
+"R","validate_model_extensions.R","R 4.6.0 parse()",TRUE
+"R","validate_outputs.R","R 4.6.0 parse()",TRUE
+"R","validate_public_data.R","R 4.6.0 parse()",TRUE
+"Julia","BRMCore.jl","tree-sitter-julia 0.23.1",TRUE
+"Julia","run_calibration_sensitivity.jl","tree-sitter-julia 0.23.1",TRUE
+"Julia","run_closed_loop_simulation.jl","tree-sitter-julia 0.23.1",TRUE
+"Julia","run_state_model_simulation.jl","tree-sitter-julia 0.23.1",TRUE

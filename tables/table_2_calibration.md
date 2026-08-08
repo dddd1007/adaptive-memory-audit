@@ -1,0 +1,9 @@
+**Table 2. Empirical-to-simulation calibration**
+
+| Calibration target | Empirical | Simulated mean |
+|:--|--:|--:|
+| Transitions per dataset | 2,045 | 2,400 |
+| Failure rate | .0973 | .0995 |
+| Planned-enacted Spearman correlation | .8146 | .8172 |
+| Naive gap odds ratio per SD | 0.806 | 0.813 |
+

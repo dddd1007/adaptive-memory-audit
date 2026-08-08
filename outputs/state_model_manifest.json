@@ -1,0 +1,13 @@
+{
+  "analysis": "RL/Bayesian learner-scheduler recovery",
+  "implementation": "Julia simulation and R summarization",
+  "master_seed": 20260731,
+  "julia_version": "julia version 1.11.7",
+  "formal_datasets": 800,
+  "delay_estimator_rows": 8000,
+  "diagnostic_rows": 800,
+  "observation_misspecification_rows": 4000,
+  "model_families": ["RL", "Bayesian"],
+  "history_lengths": [2, 8],
+  "repository_validation_passed": true
+}

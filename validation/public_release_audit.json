@@ -1,0 +1,54 @@
+{
+  "audit_date": "2026-08-08",
+  "release_scope": "public GitHub reader repository",
+  "manuscript_or_submission_files_included": false,
+  "raw_or_event_level_data_included": false,
+  "public_data_files": [
+    "data/analysis_transitions_deidentified.csv"
+  ],
+  "public_data_rows": 2045,
+  "public_data_fields": 10,
+  "public_data_checks": {
+    "passed": 8,
+    "total": 8
+  },
+  "global_analysis_checks": {
+    "passed": 38,
+    "total": 38
+  },
+  "source_syntax_checks": {
+    "r_passed": 11,
+    "r_total": 11,
+    "julia_passed": 4,
+    "julia_total": 4
+  },
+  "structured_file_checks": {
+    "csv_files_valid": 53,
+    "json_files_valid": 7,
+    "citation_cff_valid": true,
+    "local_markdown_links_valid": true
+  },
+  "privacy_and_release_scans": {
+    "repository_text_files_scanned": 104,
+    "forbidden_public_data_fields": 0,
+    "direct_identifier_like_values_in_public_data": 0,
+    "local_path_credential_or_placeholder_hits": 0,
+    "forbidden_document_or_archive_files": 0,
+    "forbidden_private_directories": 0
+  },
+  "package_limits": {
+    "largest_file_bytes": 5089543,
+    "largest_file": "outputs/parameter_recovery_replications.csv",
+    "git_lfs_required": false
+  },
+  "packaged_file_count_including_checksum_manifest": 121,
+  "excluded_categories": [
+    "article manuscript and supplementary document",
+    "submission correspondence and reviewer response",
+    "preprint metadata and document templates",
+    "raw exports and event-level logs",
+    "direct identifiers and linkage keys",
+    "absolute dates timestamps and exact within-day times",
+    "n-back Stroop FSRS-state and participant-summary datasets"
+  ]
+}

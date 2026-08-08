@@ -1,0 +1,41 @@
+{
+  "analysis_date": "2026-08-08",
+  "implementation": {"simulation": "Julia", "summaries_and_validation": "R"},
+  "observation_misspecification": {
+    "replications_per_learner_scheduler_cell": 100,
+    "n_stages": 8,
+    "candidate_families": ["RL", "Bayesian"],
+    "conditions": ["correct", "intercept_minus_0.25", "intercept_plus_0.25", "state_slope_0.80", "combined_plus_0.25_slope_0.80"],
+    "seed_base_offset": 130000000,
+    "learner_family_offset": 10000000,
+    "scheduler_family_offset": 1000000,
+    "stage_multiplier": 10000,
+    "family_recovery_RL": [0.965, 0.43, 1, 1, 1],
+    "family_recovery_Bayesian": [0.99, 0.895, 0.57, 0.315, 0],
+    "true_family_state_rmse_RL": [0.2512124255882763, 0.3579944711963942, 0.3623056596083321, 0.413960412841032, 0.8459094544292959],
+    "true_family_state_rmse_Bayesian": [0.2176955313733776, 0.2954397016121047, 0.2808612325843137, 0.2940649660744916, 0.3910730391307827]
+  },
+  "calibration_search": {
+    "adaptivity_grid": [0.50, 0.75, 1.00],
+    "natural_deviation_sd_grid": [0.35, 0.50, 0.65],
+    "outcome_intercept_grid": [-2.65, -2.40, -2.15],
+    "replications_per_candidate": 40,
+    "loss_targets": [0.09731051344743276, 0.8146452768576546, -0.2158255188692115],
+    "loss_scales": [0.015, 0.05, 0.10],
+    "seed_offset": 160000000,
+    "rank_one": {"adaptivity": 0.75, "natural_deviation_sd": 0.5, "outcome_intercept": -2.4, "mean_failure_rate": 0.09704166666666668, "mean_scheduled_actual_spearman": 0.8122355475018311, "mean_naive_log_odds": -0.2143858712391346, "loss": 0.002851214941775789}
+  },
+  "calibration_robustness": {
+    "top_candidates": 5,
+    "replications_per_candidate": 100,
+    "estimators_per_dataset": 4,
+    "seed_offset": 170000000,
+    "maximum_absolute_schedule_conditioned_bias": 0.0147111072293147,
+    "minimum_naive_sign_error_rate": 1
+  },
+  "validation": {
+    "checks_passed": 13,
+    "checks_total": 13,
+    "status": "passed"
+  }
+}

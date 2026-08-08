@@ -1,0 +1,5 @@
+"learner_family","n_stages","n_datasets","family_recovery_rate","true_parameter","mean_parameter_within_true_family","parameter_bias_within_true_family","parameter_exact_recovery_rate","mean_delta_nll_wrong_minus_true"
+"RL",2,200,0.595,0.25,0.26725,0.01725,0.28,0.293027634910651
+"RL",8,200,0.925,0.25,0.251,0.001,0.93,6.72498889319999
+"Bayesian",2,200,0.665,0.2,0.3216,0.1216,0.065,0.251978364547436
+"Bayesian",8,200,0.99,0.2,0.22525,0.02525,0.59,6.39168139654101

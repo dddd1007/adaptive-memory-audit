@@ -1,0 +1,57 @@
+# R session and IDE files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Julia and R dependency caches
+.julia/
+renv/library/
+renv/staging/
+
+# Local runtime and generated smoke outputs
+local_runtime/
+.runtime/
+validation/smoke_outputs/
+
+# Operating-system, editor, and credential files
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+~$*
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+.env
+.env.*
+!.env.example
+
+# Release archives
+*.zip
+
+# Prevent submission documents and private source data from entering this repo
+/documents/
+/manuscript/
+/preprint/
+/revision_notes/
+/templates/
+*.docx
+*.pdf
+/data/raw/
+/data/private/
+/data/source/
+**/*linkage*
+**/*crosswalk*
+/data/deidentified_core_event_log.csv
+/data/deidentified_daily_transitions.csv
+/data/deidentified_nback_trial_audit.csv
+/data/deidentified_stroop_participant_audit.csv
+/data/deidentified_participant_analysis_metrics.csv
+/data/deidentified_standardized_fsrs6_states.csv
+/outputs/empirical_reconstructed_participant_card_day.csv
+/outputs/empirical_reconstruction_lineage_checks.csv
+/outputs/publication_run_manifest.json

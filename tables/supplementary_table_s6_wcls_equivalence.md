@@ -1,0 +1,7 @@
+**Supplementary Table S6. Numerical equivalence of WCLS and the centered-treatment linear probability model**
+
+| Estimator | Fits | Max abs estimate diff. | Mean abs estimate diff. | Max abs SE diff. | Mean abs SE diff. |
+|:--|--:|--:|--:|--:|--:|
+| Unadjusted | 6000 | 1.24e-14 | 3.80e-15 | 1.42e-15 | 1.67e-16 |
+| Covariate adjusted | 6000 | 1.22e-14 | 3.76e-15 | 1.14e-15 | 1.72e-16 |
+

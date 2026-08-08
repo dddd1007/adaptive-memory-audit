@@ -1,0 +1,3 @@
+"component","n_replication_rows","n_design_cells","replications_per_cell","participant_grid","seed_stream"
+"micro_randomized_wcls",12000,48,250,"12|30|60|100","SEED+90000000+N*100000+delta*100000+compliance*10+replication"
+"context_proxy",2400,15,160,"30","SEED+70000000+N*100000+replication; proxy noise=data_seed+700000000"

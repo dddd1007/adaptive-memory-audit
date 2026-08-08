@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite this software package and the accompanying article."
+type: software
+title: "Adaptive-memory audit: R and Julia reproducibility materials"
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: "Zhou"
+    given-names: "Muxue"
+    affiliation: "School of Educational Science, Hengyang Normal University"
+  - family-names: "Xia"
+    given-names: "Xiaokai"
+    affiliation: "School of Educational Science, Hengyang Normal University"
+abstract: >-
+  R and Julia code, minimized de-identified analysis data, formal simulation
+  and empirical outputs, generated figures and tables, and validation records
+  for auditing psychological inferences about memory from adaptive learning
+  logs.
+keywords:
+  - memory dynamics
+  - adaptive learning
+  - spaced retrieval
+  - cognitive modeling
+  - model recovery
+  - policy logging
+  - micro-randomized trial
+  - WCLS

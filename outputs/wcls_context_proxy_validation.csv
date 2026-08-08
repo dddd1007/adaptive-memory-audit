@@ -1,0 +1,15 @@
+"check","observed","passed"
+"WCLS replication row count","12000",TRUE
+"Context-proxy replication row count","2400",TRUE
+"WCLS cell replication counts","250..250",TRUE
+"Context-proxy cell replication counts","160..160",TRUE
+"WCLS/LPM estimate equivalence","1.2427558981897846e-14",TRUE
+"WCLS/LPM standard-error equivalence","1.4155343563970746e-15",TRUE
+"Finite-sample proxy R2 construction","1.1435297153639112e-14",TRUE
+"Declared WCLS target truth","0.014127105635882509",TRUE
+"Declared WCLS target estimate","0.013839562567328038",TRUE
+"Declared WCLS target participant-t power","0.872",TRUE
+"Proxy bias decreases with proxy R2","0.4866522|0.4093978|0.3117075|0.1855759|0.0158375",TRUE
+"Proxy participant-t coverage is nondecreasing","0.00000|0.00000|0.01875|0.33125|0.96250",TRUE
+"All extension fits converged","1",TRUE
+"Participant-t interval contains normal interval","1",TRUE

@@ -1,0 +1,5 @@
+"Panel","Outcome","N","OR","95% CI","p","LOO minimum OR","LOO maximum OR","LOO below 1","Converged","Singular"
+"Leave-one-participant-out","Again","","","","","0.589","1.342","11/12","",""
+"Leave-one-participant-out","Again-or-Hard","","","","","0.721","0.983","12/12","",""
+"Crossed random-intercept model","Again","1,724/161","0.811","0.605-1.089",".164","","","","Yes","No"
+"Crossed random-intercept model","Again-or-Hard","1,724/487","0.802","0.648-0.992",".042","","","","Yes","No"

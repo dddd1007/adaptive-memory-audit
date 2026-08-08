@@ -1,0 +1,5 @@
+﻿calibration_target,observed_value,simulated_mean,scale
+Transitions per dataset,2045.0,2400.0,count
+Failure rate,0.09731051344743276,0.09949166666666667,proportion
+Scheduled-actual Spearman correlation,0.8146452768576546,0.8171713276512722,correlation
+Naive gap odds ratio per SD,0.805875899745548,0.812669371768767,odds ratio

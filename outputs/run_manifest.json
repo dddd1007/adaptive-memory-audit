@@ -1,0 +1,28 @@
+{
+  "project": "Adaptive-memory psychological audit",
+  "repository_scope": "Public code, minimized de-identified analysis data, outputs, figures, tables, and validation",
+  "analysis_languages": ["R", "Julia"],
+  "public_data_file": "data/analysis_transitions_deidentified.csv",
+  "public_transition_rows": 2045,
+  "public_data_fields": 10,
+  "master_simulation_seed": 20260731,
+  "empirical_sensitivity_seed": 20260807,
+  "r_version": "R version 4.5.3 (2026-03-11)",
+  "julia_version": "julia version 1.11.7",
+  "lme4_version": "2.0.6",
+  "repository_validation_checks": 38,
+  "repository_validation_passed": true,
+  "formal_output_row_counts": {
+    "parameter_recovery_replications": 19200,
+    "context_violation_replications": 5760,
+    "micro_randomized_wcls_replications": 12000,
+    "context_proxy_replications": 2400,
+    "state_model_delay_recovery_replications": 8000,
+    "state_model_diagnostics_replications": 800,
+    "state_model_observation_misspec_replications": 4000,
+    "calibration_search_candidates": 27,
+    "calibration_robustness_replications": 2000,
+    "empirical_sensitivity_bootstrap_replications": 28800
+  },
+  "generated_utc": "2026-08-08 UTC"
+}

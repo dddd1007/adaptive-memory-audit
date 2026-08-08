@@ -1,0 +1,3 @@
+"estimator","n_fits","maximum_absolute_estimate_difference","mean_absolute_estimate_difference","maximum_absolute_standard_error_difference","mean_absolute_standard_error_difference"
+"unadjusted_itt",6000,1.24275589818978e-14,3.7970303882805e-15,1.41553435639707e-15,1.67271433972512e-16
+"covariate_adjusted_itt",6000,1.22471477403963e-14,3.75730650025377e-15,1.13624387676481e-15,1.71721939330275e-16
