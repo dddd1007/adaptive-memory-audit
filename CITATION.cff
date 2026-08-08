@@ -4,8 +4,9 @@ type: software
 title: "Adaptive-memory audit: R and Julia reproducibility materials"
 version: "1.0.0"
 date-released: "2026-08-08"
+doi: "10.5281/zenodo.21850352"
 license: MIT
-url: "https://github.com/dddd1007/adaptive-memory-audit"
+url: "https://doi.org/10.5281/zenodo.21850352"
 repository-code: "https://github.com/dddd1007/adaptive-memory-audit"
 authors:
   - family-names: "Zhou"
@@ -29,9 +30,15 @@ keywords:
   - micro-randomized trial
   - WCLS
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21850352"
+    description: "This version (v1.0.0)"
+  - type: doi
+    value: "10.5281/zenodo.21850351"
+    description: "All versions (concept DOI)"
   - type: url
     value: "https://github.com/dddd1007/adaptive-memory-audit"
     description: "Code and data repository"
   - type: url
     value: "https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0"
-    description: "Versioned release v1.0.0"
+    description: "Versioned GitHub release v1.0.0"

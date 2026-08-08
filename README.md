@@ -1,5 +1,8 @@
 # Adaptive-memory audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21850352.svg)](https://doi.org/10.5281/zenodo.21850352)
+[![GitHub release](https://img.shields.io/github/v/release/dddd1007/adaptive-memory-audit)](https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0)
+
 Public R and Julia reproducibility materials for:
 
 > **Auditing psychological inferences about memory from adaptive learning logs: Cognitive-model recovery, policy logging, and randomized validation**
@@ -146,8 +149,13 @@ files across systems.
 
 ## Citation
 
-Repository: <https://github.com/dddd1007/adaptive-memory-audit>  
-Versioned release: <https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0>
+| Item | Link |
+|---|---|
+| Repository | <https://github.com/dddd1007/adaptive-memory-audit> |
+| GitHub release | <https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0> |
+| Version DOI (v1.0.0) | <https://doi.org/10.5281/zenodo.21850352> |
+| Concept DOI (all versions) | <https://doi.org/10.5281/zenodo.21850351> |
+| Zenodo record | <https://zenodo.org/records/21850352> |
 
 GitHub renders citation metadata from [`CITATION.cff`](CITATION.cff). Please
 cite both this software package and the accompanying article when using the
@@ -158,14 +166,13 @@ Suggested software citation:
 ```text
 Zhou, M., & Xia, X. (2026). Adaptive-memory audit: R and Julia reproducibility
 materials (Version 1.0.0) [Computer software].
-https://github.com/dddd1007/adaptive-memory-audit
+https://doi.org/10.5281/zenodo.21850352
 ```
 
-After the article is published, add the article DOI to `CITATION.cff`. To mint
-a software DOI via Zenodo: enable the GitHub–Zenodo integration for this
-repository, then create or re-publish a tagged release; Zenodo will archive the
-snapshot and issue a DOI. Metadata for that deposit is prepared in
-[`.zenodo.json`](.zenodo.json).
+Prefer the **version DOI** (`10.5281/zenodo.21850352`) when citing this exact
+release. Use the **concept DOI** (`10.5281/zenodo.21850351`) only when you want
+to cite the software as a whole across versions. After the article is published,
+add the article DOI to `CITATION.cff`.
 
 ## Licenses
 
