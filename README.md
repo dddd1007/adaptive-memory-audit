@@ -146,10 +146,26 @@ files across systems.
 
 ## Citation
 
-GitHub can render the citation metadata in [`CITATION.cff`](CITATION.cff).
-Please cite both this software package and the accompanying article when using
-the materials. The final article DOI and repository URL can be added to the CFF
-metadata after publication and the first versioned GitHub release.
+Repository: <https://github.com/dddd1007/adaptive-memory-audit>  
+Versioned release: <https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0>
+
+GitHub renders citation metadata from [`CITATION.cff`](CITATION.cff). Please
+cite both this software package and the accompanying article when using the
+materials.
+
+Suggested software citation:
+
+```text
+Zhou, M., & Xia, X. (2026). Adaptive-memory audit: R and Julia reproducibility
+materials (Version 1.0.0) [Computer software].
+https://github.com/dddd1007/adaptive-memory-audit
+```
+
+After the article is published, add the article DOI to `CITATION.cff`. To mint
+a software DOI via Zenodo: enable the GitHub–Zenodo integration for this
+repository, then create or re-publish a tagged release; Zenodo will archive the
+snapshot and issue a DOI. Metadata for that deposit is prepared in
+[`.zenodo.json`](.zenodo.json).
 
 ## Licenses
 

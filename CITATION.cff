@@ -3,7 +3,10 @@ message: "If you use these materials, please cite this software package and the 
 type: software
 title: "Adaptive-memory audit: R and Julia reproducibility materials"
 version: "1.0.0"
+date-released: "2026-08-08"
 license: MIT
+url: "https://github.com/dddd1007/adaptive-memory-audit"
+repository-code: "https://github.com/dddd1007/adaptive-memory-audit"
 authors:
   - family-names: "Zhou"
     given-names: "Muxue"
@@ -25,3 +28,10 @@ keywords:
   - policy logging
   - micro-randomized trial
   - WCLS
+identifiers:
+  - type: url
+    value: "https://github.com/dddd1007/adaptive-memory-audit"
+    description: "Code and data repository"
+  - type: url
+    value: "https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0"
+    description: "Versioned release v1.0.0"

@@ -1,0 +1,42 @@
+{
+  "title": "Adaptive-memory audit: R and Julia reproducibility materials",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "description": "Public R and Julia reproducibility materials for the article \"Auditing psychological inferences about memory from adaptive learning logs: Cognitive-model recovery, policy logging, and randomized validation\". Includes analysis source code, one minimized de-identified empirical transition table, formal simulation and empirical outputs, generated figures and tables, and validation records. Software under MIT; de-identified data and generated research products under CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Zhou, Muxue",
+      "affiliation": "School of Educational Science, Hengyang Normal University"
+    },
+    {
+      "name": "Xia, Xiaokai",
+      "affiliation": "School of Educational Science, Hengyang Normal University"
+    }
+  ],
+  "keywords": [
+    "memory dynamics",
+    "adaptive learning",
+    "spaced retrieval",
+    "cognitive modeling",
+    "model recovery",
+    "policy logging",
+    "micro-randomized trial",
+    "WCLS",
+    "reproducibility",
+    "open science"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dddd1007/adaptive-memory-audit",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0",
+      "relation": "isIdenticalTo",
+      "resource_type": "software"
+    }
+  ]
+}
