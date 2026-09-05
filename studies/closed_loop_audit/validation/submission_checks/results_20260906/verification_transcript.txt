@@ -1,0 +1,22 @@
+0,1000,994,6,6,0,0,0,0,0
+1,1000,990,10,10,0,0,0,0,0
+2,1000,987,13,13,0,0,0,0,0
+Audited 3000 stored fits; no DGP, estimator, seed, or fit rule changed.
+Test Summary:                  | Pass  Total  Time
+Conditional likelihood and DGP |   34     34  1.8s
+(lambda = 2, replication = 2, estimate_difference = 1.6653345369377348e-16, se_difference = 7.47227280051277e-12, gradient_error = 6.567598895019414e-8, hessian_step_error = 2.405758891654841e-6)
+(lambda = 0, replication = 33, estimate_difference = 6.661338147750939e-16, se_difference = 1.3190420977693407e-12, gradient_error = 1.2894848105959866e-7, hessian_step_error = 2.201245706601185e-6)
+(lambda = 1, replication = 30, estimate_difference = 4.440892098500626e-16, se_difference = 3.0009050799861825e-12, gradient_error = 6.689683915497804e-8, hessian_step_error = 3.7610246863550856e-6)
+(lambda = 2, replication = 13, estimate_difference = 9.992007221626409e-16, se_difference = 1.353195333564372e-12, gradient_error = 7.077068671021467e-8, hessian_step_error = 3.244178287786781e-6)
+Test Summary:                                | Pass  Total     Time
+Piecewise integration at clipping boundaries |   22     22  1m14.8s
+All 12 summary rows agree with stored replication outcomes and the denominator identity.
+Coverage gap range in percentage points: 0.568008 1.269706 
+  lambda coverage_gap_pp.min coverage_gap_pp.max
+1      0           0.5680080           0.5849095
+2      1           0.9343434           0.9777778
+3      2           1.2328267           1.2697062
+Nine deterministic derivative identity checks passed; max difference: 1.401368e-11 
+Independent clubSandwich CR2 on Pearson linearization; 51 refits.
+10 public evidence checks passed.
+Public reproduction checks passed. Stored Monte Carlo results were audited, not fully rerun.

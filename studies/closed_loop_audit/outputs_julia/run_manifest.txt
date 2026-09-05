@@ -1,0 +1,8 @@
+master_seed=20260903
+julia_version=1.12.7
+primary_observational_replications=1000
+adaptivity_grid_nonprimary_replications=400
+mrt_replications_per_cell=1000
+dynamic_recovery_replications_per_cell=400
+observation_selection_stress_replications_per_cell=400
+update_class_replications_per_cell=400

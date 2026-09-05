@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1100 619"><rect width="1100" height="619" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10" fill="none" stroke="context-stroke" stroke-width="1.8"/></marker></defs>
+<rect x="90" y="40" width="260" height="110" rx="4" fill="white" stroke="#265675" stroke-width="2.4"/>
+<text x="220.0" y="104.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">Learner state</text>
+<rect x="420" y="40" width="260" height="110" rx="4" fill="white" stroke="#265675" stroke-width="2.4"/>
+<text x="550.0" y="88.5" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">Observed evidence /</text>
+<text x="550.0" y="119.5" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">belief update</text>
+<rect x="750" y="40" width="260" height="110" rx="4" fill="white" stroke="#8B5A24" stroke-width="2.4"/>
+<text x="880.0" y="104.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">System belief</text>
+<rect x="90" y="290" width="260" height="110" rx="4" fill="white" stroke="#265675" stroke-width="2.4"/>
+<text x="220.0" y="354.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">Proximal response</text>
+<rect x="420" y="290" width="260" height="110" rx="4" fill="white" stroke="#8B5A24" stroke-width="2.4"/>
+<text x="550.0" y="354.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">Enacted action</text>
+<rect x="750" y="290" width="260" height="110" rx="4" fill="white" stroke="#8B5A24" stroke-width="2.4"/>
+<text x="880.0" y="354.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">Planned action</text>
+<rect x="420" y="485" width="260" height="105" rx="4" fill="white" stroke="#737373" stroke-width="2.4"/>
+<text x="550.0" y="531.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">Availability, effort,</text>
+<text x="550.0" y="562.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#111111">and context</text>
+<path d="M220 150 V283" fill="none" stroke="#333333" stroke-width="2.6" marker-end="url(#arrow)"/>
+<path d="M680 95 H743" fill="none" stroke="#333333" stroke-width="2.6" marker-end="url(#arrow)"/>
+<path d="M880 150 V283" fill="none" stroke="#333333" stroke-width="2.6" marker-end="url(#arrow)"/>
+<text x="937" y="224" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#444444">Policy</text>
+<path d="M750 345 H687" fill="none" stroke="#333333" stroke-width="2.6" marker-end="url(#arrow)"/>
+<path d="M420 345 H357" fill="none" stroke="#333333" stroke-width="2.6" marker-end="url(#arrow)"/>
+<path d="M270 290 V218 H550 V157" fill="none" stroke="#333333" stroke-width="2.6" marker-end="url(#arrow)"/>
+<text x="453" y="206" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#444444">Recorded response</text>
+<path d="M90 345 H40 V95 H83" fill="none" stroke="#333333" stroke-width="2.6" marker-end="url(#arrow)"/>
+<text x="178" y="447" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#444444">State update</text>
+<path d="M550 485 V407" fill="none" stroke="#737373" stroke-width="2.6" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<path d="M420 535 H320 V408" fill="none" stroke="#737373" stroke-width="2.6" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+</svg>

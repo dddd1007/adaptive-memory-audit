@@ -1,5 +1,11 @@
 # Adaptive-memory audit
 
+## September 2026 computational update
+
+The current closed-loop audit study is available in [studies/closed_loop_audit](studies/closed_loop_audit/README.md), with its own reproduction entry points, frozen informative-observation experiment and independent Julia/R checks. The repository-root workflow and the version 1.0.0 citation below describe the earlier release. They have been preserved for reproducibility; the newer study has not been assigned a new release DOI. Manuscript and submission documents remain outside this repository.
+
+## Earlier release
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21850352.svg)](https://doi.org/10.5281/zenodo.21850352)
 [![GitHub release](https://img.shields.io/github/v/release/dddd1007/adaptive-memory-audit)](https://github.com/dddd1007/adaptive-memory-audit/releases/tag/v1.0.0)
 

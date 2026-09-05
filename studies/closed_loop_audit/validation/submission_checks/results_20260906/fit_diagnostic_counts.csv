@@ -1,0 +1,4 @@
+lambda,total,valid,invalid,gamma_boundary,coefficient_boundary,gradient_failure,information_failure,conditioning_failure,nonfinite
+0,1000,994,6,6,0,0,0,0,0
+1,1000,990,10,10,0,0,0,0,0
+2,1000,987,13,13,0,0,0,0,0

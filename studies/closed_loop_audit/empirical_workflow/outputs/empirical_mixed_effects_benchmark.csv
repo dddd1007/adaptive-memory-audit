@@ -1,0 +1,3 @@
+"planned_interval_threshold_days","outcome_definition","n_transitions","n_outcomes","log_odds_coefficient","standard_error","odds_ratio","ci_low","ci_high","p_value","converged","singular","optimizer"
+0.5,"Again",1724,161,-0.209015557471538,0.150061951219724,0.811382612483319,0.604634233012876,1.08882644728824,0.163661589977894,TRUE,FALSE,"bobyqa"
+0.5,"Again or Hard",1724,487,-0.220887885658919,0.108512261016913,0.801806569266367,0.648192208126425,0.991825829528192,0.0417902348341568,TRUE,FALSE,"bobyqa"

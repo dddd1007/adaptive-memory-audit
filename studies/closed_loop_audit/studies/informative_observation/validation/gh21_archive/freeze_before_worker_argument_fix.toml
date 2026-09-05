@@ -1,0 +1,13 @@
+frozen_at = "2026-09-05T20:25:54.497"
+julia_version = "1.12.7"
+status = "frozen_before_confirmatory_datasets"
+
+[files]
+"config/calibrated_design.toml" = "9a27a13ba7d5689dd076e91405b4c773ca0bd2d6e3a1fd744d06ab9fc7d8b849"
+"config/design.toml" = "5df436b48d335834b61b4773c23f735a223f92d6975d0f54fb2230ded2cf9870"
+"config/execution.toml" = "0dfaa069ebbe045ac5a3053f197cf8da588e52c6f752b87f6a724510ac554f80"
+"src/InformativeObservation.jl" = "21d76be0b81a31b5b85ab5cdc534ce666fb7ecfeab42881480dabaac03d1f343"
+"src/calibrate.jl" = "918735ab72a0e85d09f7e8230caa6546465a17dec0ffec6e02b4dd6313239e6a"
+"src/run_study.jl" = "2556a74b3cbe56e13f258c764010a89852ce8af04135adfadd731ad518ea1588"
+"src/test_likelihood.jl" = "efbe1ef4f0108ca0000279abb85f557b2c1e882393e8e74bac20572d933031a8"
+"validation/independent_likelihood.R" = "834c617ca76125d93d750235750ac4132605d36345a0f516bdd7d4244ab56f4e"

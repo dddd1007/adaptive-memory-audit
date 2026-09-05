@@ -1,0 +1,27 @@
+{
+  "analysis_version": "v1.3.0-candidate",
+  "passed": true,
+  "checks": {
+    "authoritative_simulation_language": "Julia",
+    "frozen_julia_version": "1.12.7",
+    "cross_version_julia_lts": "1.10.12",
+    "cross_version_max_absolute_difference": 1.42108547152e-14,
+    "independent_r_version": "4.6.1",
+    "clubsandwich_version": "0.7.0",
+    "frozen_julia_r_refits": 51,
+    "max_coefficient_difference": 6.11398154327e-11,
+    "max_standard_error_difference": 1.04469965950e-4,
+    "max_degrees_of_freedom_difference": 2.98718588354e-4,
+    "abstract_words": 111,
+    "keywords": 5,
+    "main_pages": 32,
+    "main_tables": 5,
+    "main_figures": 4,
+    "main_display_equations": 22,
+    "supplement_pages": 12,
+    "supplement_tables": 9,
+    "anonymous_scan_passed": true,
+    "docx_integrity_passed": true,
+    "render_review_passed": true
+  }
+}

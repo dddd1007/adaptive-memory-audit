@@ -1,0 +1,23 @@
+{
+  "analysis": "Empirical sensitivity audit from minimized public transitions",
+  "analysis_date": "2026-08-08",
+  "random_seed": 20260807,
+  "input_file": "data/analysis_transitions_deidentified.csv",
+  "public_transition_rows": 2045,
+  "public_data_fields": 10,
+  "participant_codes": 12,
+  "card_codes": 100,
+  "again_failures": 199,
+  "public_data_checks_passed": 8,
+  "public_data_checks_total": 8,
+  "sensitivity_cells": 24,
+  "bootstrap_replications_per_cell": 1200,
+  "all_validation_checks_passed": true,
+  "engine": "R base; lme4 for crossed random-intercept benchmarks",
+  "outputs": [
+    "empirical_sensitivity_summary.csv",
+    "empirical_sensitivity_bootstrap_replications.csv",
+    "empirical_leave_one_participant_out.csv",
+    "empirical_mixed_effects_benchmark.csv"
+  ]
+}

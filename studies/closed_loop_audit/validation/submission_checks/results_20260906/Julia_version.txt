@@ -1,0 +1,15 @@
+Julia Version 1.12.7
+Commit 6d172b025e4 (2026-08-15 08:05 UTC)
+Build Info:
+  Official https://julialang.org release
+Platform Info:
+  OS: macOS (arm64-apple-darwin25.5.0)
+  CPU: 10 × Apple M1 Max
+  WORD_SIZE: 64
+  LLVM: libLLVM-18.1.7 (ORCJIT, apple-m1)
+  GC: Built with stock GC
+Threads: 1 default, 0 interactive, 1 GC (on 8 virtual cores)
+Environment:
+  JULIA_PKG_USE_CLI_GIT = true
+  JULIA_BIN = <Julia 1.12.7 executable>
+  JULIA_NUM_THREADS = 1

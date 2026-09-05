@@ -1,0 +1,15 @@
+# Source and manuscript style checks
+
+Checked 2026-09-05 against the [official JEBS author instructions](https://journals.sagepub.com/author-instructions/jeb): APA 7, Letter paper, at least 12-point text, double spacing, one-inch margins, embedded figures/tables, anonymous manuscript and metadata, 100–120-word abstract, and typically 3–5 keywords. The stated main manuscript limit is 40 pages including its tables, appendices, notes, and references. Supplemental information is provided separately; this record does not infer an unlisted supplemental page allowance. A separate identifying title page is not invented in this anonymous candidate.
+
+The standalone v4 DOCX and archived manuscript DOCX are byte-identical: SHA256 b3172fe9b86c9b849582cdadfbc0307e644d0c263b8b6b220a8308828232a61c. They therefore establish the same starting text and visual reference.
+
+Foundational claims were checked against primary sources:
+
+- [Rubin (1976), Inference and missing data](https://academic.oup.com/biomet/article-abstract/63/3/581/270932): direct-likelihood/Bayesian ignorability requires missing-at-random structure and distinct parameters. Sampling-distribution and unconditional finite-sample guarantees are separate claims. The proposition in the manuscript makes a likelihood factorization claim and does not promise unbiased estimates or nominal coverage.
+- [Mislevy and Wu (1996), ETS RR-96-30-ONR](https://www.ets.org/research/policy_research_reports/publications/report/1996/hxus.html): the publisher abstract explicitly considers omits, choice, time limits and adaptive testing. Full report access was not available from the publisher page, so no unverified theorem number is cited.
+- [Mislevy and Chang, CSE Technical Report 476](https://cresst.org/wp-content/uploads/TECH476.pdf): inspected the authors' full 1998 report version, including its distinction between response values and ordered item-response sequences and its selection-factor construction. The [ETS journal record](https://www.ets.org/research/policy_research_reports/publications/article/2000/hjyc.html) verifies the 2000 Psychometrika citation. Online migration dates are not substituted for the original publication year.
+- [Holman and Glas (2005)](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/j.2044-8317.2005.tb00312.x): publisher abstract confirms IRT-based modelling of nonignorable missingness and simulation assessment of bias. The article is cited for this general connection, without attributing an unverified theorem or claiming that its static IRT construction validates the present dynamic model.
+- [clubSandwich maintainer documentation](https://jepusto.github.io/clubSandwich/reference/vcovCR.glm.html) and installed 0.7.0 source: coordinate-specific CR2 audit is documented separately and numerically tested.
+
+The existing empirical ridge sensitivity code implements its matrix fits directly in base R. The archived lme4 mixed-effects workflow is a separate historical sensitivity analysis; it is not a required dependency of the ridge descriptive estimates quoted in the revised main text.

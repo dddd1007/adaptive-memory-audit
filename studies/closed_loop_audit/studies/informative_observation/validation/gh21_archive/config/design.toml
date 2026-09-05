@@ -1,0 +1,62 @@
+# Design specification, not a completed-run manifest.
+status = "planned_not_implemented"
+study_id = "latent_initial_state_informative_observation"
+master_seed = 20260905
+calibration_seed_offset = 100000000
+confirmatory_seed_offset = 200000000
+validation_seed_offset = 300000000
+replications_per_condition = 1000
+lambda = [0.0, 1.0, 2.0]
+target_observation_rate = 0.81
+calibration_holdout_tolerance = 0.005
+# alpha values must be independently calibrated and frozen in another file.
+
+[population]
+learners = 30
+items_per_learner = 20
+opportunities = 8
+initial_state_variance = 1.0
+baseline_reliability = 0.90
+baseline_error_variance = 0.1111111111111111
+initial_structure = "independent_per_learner_item_sequence"
+shared_random_effects = false
+process_noise_sd = 0.0
+
+[response]
+intercept = -2.40
+delay_coefficient = 0.25
+state_coefficient = -0.55
+previous_failure_coefficient = 0.35
+outcome_one = "failure"
+
+[learner]
+retention = 0.75
+success_increment = 0.45
+failure_increment = -0.65
+state_clip = [-4.5, 4.5]
+skip_rule = "decay_only"
+
+[platform]
+adaptivity = 0.70
+plan_intercept = 0.75
+previous_failure_coefficient = -0.55
+plan_noise_sd = 0.20
+enactment_noise_sd = 0.50
+belief_retention = 0.70
+belief_success_increment = 0.40
+belief_failure_increment = -0.60
+belief_clip = [-4.5, 4.5]
+skip_rule = "decay_only"
+accumulate_skipped_delay = false
+
+[estimation]
+initial_distribution = "conditional_normal_given_Z0"
+posterior_mean_multiplier = 0.90
+posterior_variance = 0.10
+estimated = ["delay_coefficient", "state_coefficient", "previous_failure_coefficient", "retention"]
+gh_nodes = 21
+gh_validation_nodes = 41
+preselected_node_check_replicates_per_condition = 10
+confidence_level = 0.95
+include_all_zero_observation_sequences = true
+ignore_selection_probability_in_main_fit = true

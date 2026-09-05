@@ -1,0 +1,30 @@
+{
+  "analysis_version": "v1.3.0-candidate",
+  "frozen_date_utc": "2026-09-03",
+  "authoritative_simulation_language": "Julia",
+  "julia_version": "1.12.7",
+  "cross_version_julia_lts": "1.10.12",
+  "cross_version_max_absolute_difference": 1.42108547152e-14,
+  "independent_validation_language": "R",
+  "r_version": "4.6.1",
+  "clubsandwich_version": "0.7.0",
+  "master_seed": 20260903,
+  "replication_counts": {
+    "primary_observational_per_architecture": 1000,
+    "secondary_observational_per_cell": 400,
+    "dynamic_parameter_recovery_per_architecture_and_selection": 400,
+    "observation_selection_stress_per_cell": 400,
+    "unrecorded_context_per_cell": 400,
+    "latent_state_policy_stress": 500,
+    "randomized_effect_per_cell": 1000,
+    "randomized_null_per_cell": 1000,
+    "randomized_compliance_per_architecture": 1000,
+    "update_class_per_cell": 400
+  },
+  "source_sha256": {
+    "src/julia/BRMCore.jl": "027f73ccb9df1ad9cfeeb7d8f41693f4c725eff690aaaaeac471d41055aab24b",
+    "src/julia/run_revision_simulations.jl": "ae7e57bba12fec707991faba255a5dde26cefb96bdd7aa62b57b8f6cdd3fabb8",
+    "src/r/summarize_and_validate.R": "82137b038160ccbcc9bd68b46b179563a27eb90385c16219ea17a19e15773517"
+  },
+  "analysis_boundary": "Julia generated every simulated dataset, estimator, and replication-level result. R independently refitted frozen Julia datasets, summarized Julia outputs, and rendered figures. Python generated no reported research result."
+}

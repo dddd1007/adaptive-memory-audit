@@ -1,0 +1,22 @@
+calibration_seed = 120260906
+calibration_sequences = 100000
+design_sha256 = "5df436b48d335834b61b4773c23f735a223f92d6975d0f54fb2230ded2cf9870"
+holdout_seed = 120260907
+holdout_sequences = 100000
+status = "calibrated_on_independent_data"
+
+[[conditions]]
+alpha = 1.4500101755059986
+holdout_rate = 0.8102725
+lambda = 0.0
+training_rate = 0.810095
+[[conditions]]
+alpha = 1.0240627378225327
+holdout_rate = 0.80998
+lambda = 1.0
+training_rate = 0.81
+[[conditions]]
+alpha = 0.9468387812376022
+holdout_rate = 0.80964625
+lambda = 2.0
+training_rate = 0.80999875

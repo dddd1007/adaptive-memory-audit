@@ -1,0 +1,7 @@
+"metric","value"
+"maximum absolute coefficient difference","6.11391492988e-11"
+"maximum absolute standard-error difference","0.00010446996595"
+"maximum absolute degrees-of-freedom difference","0.000298718588329"
+"Julia version","1.12.7"
+"R version","R version 4.6.1 (2026-06-24)"
+"clubSandwich version","0.7.0"
